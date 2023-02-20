@@ -7,7 +7,7 @@ jobs:
       name: win/default
     steps:
       - checkout
-      - run: javac C:\Java_Project\Test.java
+      - run: cd C:\Java_Project
 workflows:
   my-workflow:
     jobs:
