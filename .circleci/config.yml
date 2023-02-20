@@ -7,8 +7,9 @@ jobs:
       name: win/default
     steps:
       - checkout
-      - run: cd c:\
-      dir
+      - run: |
+          cd c:\
+          dir
 workflows:
   my-workflow:
     jobs:
