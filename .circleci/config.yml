@@ -7,7 +7,7 @@ jobs:
       name: win/default
     steps:
       - checkout
-      - run: cd C:\Java_Project
+      - run: cd c:\
 workflows:
   my-workflow:
     jobs:
