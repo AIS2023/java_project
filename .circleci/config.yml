@@ -14,7 +14,7 @@ jobs:
     executor: my-custom-executor
     steps:
       - checkout
-      - run: |
+      - run:
           cd C:\Java_Project
           javac Test.java
 
