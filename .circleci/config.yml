@@ -15,8 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          cd C:/Java_Project|
-          javac Test.java
+          javac C:/Java_Project/Test.java
 
 workflows:
   my-custom-workflow:
