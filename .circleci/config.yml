@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          cd C:/Java_Project |
+          cd C:/Java_Project|
           javac Test.java
 
 workflows:
